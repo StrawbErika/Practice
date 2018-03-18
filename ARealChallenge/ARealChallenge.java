@@ -15,8 +15,7 @@ public class ARealChallenge {
 
       root = Math.sqrt(givenArea);
       root = root*4;
-      BigDecimal fenceLength = new BigDecimal(root);
-      System.out.println(fenceLength);
+      System.out.println(root);
 
     }
 
