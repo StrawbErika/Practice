@@ -13,8 +13,12 @@ public class ARealChallenge {
       System.out.println("Area: ");
       givenArea =reader.nextDouble();
 
+      // DecimalFormat df = new DecimalFormat();
+      // df.setMaximumFractionDigits(16);
+
       root = Math.sqrt(givenArea);
       root = root*4;
+      // System.out.println(df.format(root));
       System.out.println(root);
 
     }
